@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('Group 5-1.png'); /* Caminho relativo da imagem */
+    background-image: url('intro-component-with-sign-up-form/Group 5-1.png'); /* Caminho relativo da imagem */
     display: flex;
     justify-content: center;
     align-items: center; /* Centraliza o conteúdo verticalmente */
