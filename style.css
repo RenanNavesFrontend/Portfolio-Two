@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('intro-component-with-sign-up-form/Group 5-1.png'); /* Caminho relativo da imagem */
+    background-image: url('images/Group 5-1.png'); /* Caminho relativo da imagem */
     display: flex;
     justify-content: center;
     align-items: center; /* Centraliza o conteúdo verticalmente */
@@ -191,5 +191,94 @@ button {
 .button-text-emphasis {
     color: #FF7979;
     font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .text-group {
+        min-width: unset;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .subText {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .subText br {
+        display: none;
+    }
+
+    .form-content {
+        width: 100%;
+    }
+
+    .form-group {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .title-form {
+        width: 100%;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    .error-message {
+        left: unset;
+        right: 0;
+    }
+
+    .button-group {
+        margin-top: 20px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .button-text {
+        padding: 10px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .title-form {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .input-group {
+        margin-bottom: 25px;
+    }
 }
 
